@@ -1,0 +1,728 @@
+*{
+    font-family: poppins;
+    text-decoration: none !important;
+  }
+
+ /**************************************** NAVBAR*******************************************/
+  .navbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #676767;
+  }
+  .navbar-brand small{
+    display: block;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 12px;
+  }
+  .navbar-brand strong{
+    letter-spacing: 5px;
+  }
+  .navbar-brand{
+    color: #F7F7F7 !important;
+  }
+  .navbar-nav li a{
+    text-transform: uppercase;
+    color: #F7F7F7 !important;
+    letter-spacing: 2px;
+  }
+  .navbar-scroll{
+    background-color: black !important;
+  }
+   /***************************************** CAROUSEL***********************************************/
+  .carousel{
+      background-color: black;
+  }
+   .carousel-caption{
+    bottom: 130px;
+  }
+  .carousel img{
+    width: 1350px;
+    height: 700px;
+    opacity: 0.5;
+  }
+  .carousel-item img{
+    background-color: black;
+    opacity: 0.5;
+  }
+   .carousel-caption span{
+    font-family: dancing script;
+    font-size: 26px;
+    color: #C39B63 ;
+   }
+  .carousel-caption p{
+    font-family: poppins;
+    font-size: 18px;
+  }
+   .carousel-caption h1{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: ubuntu;
+  }
+  .btn1{
+    background-color: #C39B63  !important;
+
+  }
+  .btn1:hover{
+    background-color: transparent !important;
+    border: 1px solid #C39B63 ;
+    color: #C39B63 ;
+  }
+  .btn2{
+    border: 1px solid white;
+    color: white;
+  }
+  .btn2:hover{
+    border: 1px solid #C39B63 ;
+    background-color: #C39B63  !important;
+  }
+  /****************************************connection***********************************/
+  #ftco-testimony{
+    padding-bottom: 0;
+    z-index: 0;
+    position: relative;
+  }
+  .con_text h6 i{
+    color: #C39B63  !important;
+    font-size: 24px !important;
+  }
+  .con_text h6{
+    margin-bottom: 10px;
+  }
+  .con_text h6{
+    color: #727172;
+  }
+  .con_text p{
+    color: #727172;
+  
+  }
+  
+  
+  .connection-form .wrap .info {
+      width: calc(100% - 35%);
+      padding: 2% 5% 2% 12%;
+  }
+  
+  .c_book input,.c_txtarea{
+    background-color: #C39B63 !important;
+    border:1px solid #C39B63 !important;
+  }
+  .form_line{
+    color: white !important;
+    background-color: #B5B89D !important;
+    height: 1px;
+  }
+  .c_book{
+    z-index: 2 !important;
+    position: relative;
+    background-color: #C39B63;
+  }
+  .connection-form {
+      margin-top: -130px;
+      background-color: black;
+  }
+  .c_btn{
+    background-color: white;
+    border:1px solid white;
+  }
+  .c_btn:hover{
+    background-color: black;
+    border:1px solid black;
+    color: white;
+  }
+  /*About*/
+  .subheading {
+    font-family: dancing script !important;
+    font-size: 46px !important;
+    letter-spacing: 2px !important;
+    color: #C39B63 !important;
+  }
+  .heading-section h2{
+    color: white;
+    font-family: ubuntu;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: -20px;
+  }
+  .ftco-about{
+    background: url('../img/bg_4.jpg');
+  }
+  .ftco-about p{
+    color: #727172 !important;
+    font-family: poppins;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .ftco-about .one-half.img {
+      display: block;
+  }
+  
+  
+  .ftco-about .one-half .overlap {
+      margin-left: -150px;
+      padding: 40px;
+      background: rgba(0, 0, 0, 0.5);}
+      .ftco-about .one-half {
+      width: 100%;
+      padding: 30px 15px;
+  }
+  
+  .ftco-about .one-half {
+      padding: 8% 13% 8% 5%;
+      width: 50%;
+  }
+  /**********************************Our service***********************************/
+  .our_service{
+    background-color: #C39B63;
+    height: 500px;
+  }
+  .our_service_text {
+      color: #312516 !important;
+  }
+      /********************************************************MENU*********************************************/
+      .menu{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: url('../img/bg_4.jpg');
+
+      }
+      .menu p{
+        color: #727172 !important;
+        font-family: poppins;
+        font-size: 15px;
+        line-height: 30px;
+      }
+      .menu h2{
+        color: white;
+        font-family: ubuntu;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-top: -20px;
+      }
+      .menu-img:hover{
+        cursor: pointer;
+      }
+      p.menu-s{
+        font-family: dancing script !important;
+        font-size: 46px !important;
+        letter-spacing: 2px !important;
+        color: #C39B63  !important;
+      }
+      .menu_sec img{
+        width: 100px;
+        height: 100px;
+      }
+      /********************************************Counter***************************************/
+.counter {
+    background: linear-gradient( rgba(0,0,0, .6), rgba(0,0,0, .6) ), url(../img/slide2.jpg);
+    background-attachment: fixed;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .l1{
+    border:1px solid #C39B63;
+  }
+  .price span{
+    color: #C39B63;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px
+  }
+  .counter p{
+    color: #B8B7AD;
+  }
+     /********************************************** COFFEE SELLERS************************************************/
+     .c_s_p{
+        color: #C39B63 !important;
+        font-family: dancing script !important;
+        font-size: 46px !important;
+    
+       }
+       .coffee_seller{
+        background: url('../img/bg_4.jpg');
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+       }
+       .coffee_seller h5{
+        color: white;
+        
+       }
+         .coffee_seller p{
+        color: #727172 ;
+        font-size: 16px;
+        font-family: poppins;
+       }
+       .coffee_seller h2{
+        color: white;
+        font-size: 40px;
+         margin-top: -28px;
+       }
+       .c_s_text {
+        color: #727172 !important;
+        font-size: 15px !important;
+        font-family: poppins !important;
+        line-height: 30px;
+       }
+       .c_s_price{
+        color: white !important;
+        font-size: 20px !important;
+       }
+       .coffee_seller button{
+        border: 1px solid #C39B63  !important;
+        color: #C39B63 ;
+       }
+          .coffee_seller button:hover{
+        border: 1px solid #C39B63 !important;
+        color: white;
+        background-color: #C39B63;
+       }
+        /********************************************  GALLERY**********************************************/
+   /* Products*/
+   .products ul li a{
+     color: white;
+     font-size: 18px;
+      border-bottom: 2px solid #C39B63;
+   padding: 10px
+   }
+   .products ul li a:hover{
+   background-color: #C39B63;
+   
+   }
+   .active{
+   color: white;
+   
+   }
+      /*********************************************** Service*******************************************************/
+      .products{
+        background: url('../img/bg_4.jpg');
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+    
+      .p_btn {
+        border: 1px solid #C39B63 !important;
+        color: #C39B63;
+      
+      }
+      .p_btn:hover{
+        background-color: #C39B63;
+        color: white;
+      }
+      .products h2{
+        color: white !important;
+        font-size: 40px !important;
+        margin-top: -28px !important;
+      }
+      .products p{
+        color: #727172;
+        font-size: 16px;
+        font-family: poppins;
+      }
+   /***********************************************Customer***********************************************/
+.customer{
+    background: linear-gradient( rgba(0,0,0, .6), rgba(0,0,0, .6) ), url(../img/slide1.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+ }
+ .image img{
+   height: 50px;
+   width: 50px;
+ }
+#ftco-testimony > .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .5;
+}
+.cus_h2{
+  color: white !important;
+  font-size: 40px !important;
+  margin-top: -28px !important;
+}
+.cus_p{
+  color: #727172;
+  font-size: 16px;
+  font-family: poppins;
+}
+.tes_odd{
+  background-color: #C39B63;
+}
+.tes_even{
+  background-color: #B18C59;
+}
+ /**************************************************  BLOG**********************************************/
+ .blog{
+    background: url('../img/bg_4.jpg');
+    padding-bottom: 100px;
+    padding-top: 100px;
+     
+ }
+ .blog_h3{
+    color: #C39B63 !important;
+    font-family: dancing script !important;
+    font-size: 46px !important;
+
+   }
+   .blog h5{
+    color: white;
+    
+   }
+     .blog p{
+    color: #727172 ;
+    font-size: 16px;
+    font-family: poppins;
+   }
+   .blog h2{
+    color: white;
+    font-size: 40px;
+     margin-top: -28px;
+   }
+   .blog_text {
+    color: #727172 !important;
+    font-size: 15px !important;
+    font-family: poppins !important;
+    line-height: 30px;
+   }
+   .admin, .fa{
+     color: #727172 !important ;
+   }
+     /*************************************** CONTACT ************************************/
+
+     .contact{
+         background-color: black;
+     }
+     .form{
+        margin-top: 25px;
+       }
+      input, textarea {
+        background-color: black !important;
+        resize: none !important;
+        }
+        .c_border{
+          border: none;
+        }
+      .contact_section h3{
+        color: white;
+      }
+      .form_btn{
+          border:1px solid #727172 !important;
+          color: #C39B63;
+    
+      }
+   
+        .form_btn:hover{
+          border:1px solid #C39B63 !important;
+          color: white;
+          background-color: #C39B63;
+    
+      }
+      /*************************************  footer*****************************/
+.f_icon{
+    font-size: 30px !important;
+    color: white !important;
+  }
+  .footer_section{
+    background-color: #120F0F;
+     position: relative;
+      padding-top: 100px;
+    
+  }
+  .about_us p{
+    color: #B8B7AD !important;
+    font-size: 18px;
+  
+  }
+  .icon i:hover{
+    color: #C39B63 !important;
+  
+  }
+  .recent_blog a{
+    font-size: 15px !important;
+    color: white;
+  }
+  .recent_blog a:hover{
+    color: #C39B63 !important;
+    font-size: 15px !important;
+  
+  }
+  .f_r_b div{
+    color: #727172 !important;
+    font-size: 14px;
+   
+  }
+  .list-unstyled span{
+    color: white !important;
+  }
+  .location{
+    color: #727172 !important;
+  }
+  .list-unstyled li a{
+    color: #B8B7AD !important;
+    
+  }
+  .list-unstyled li a:hover{
+    color: white !important;
+    
+  }
+  /****************************************Menu page******************************/
+.menu-page{
+    background-color: black !important;
+}
+  .menu_sec{
+    background: url('../img/bg_4.jpg') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .menu_sec img{
+      height: 80px;
+      width: 80px;
+  }
+  .menu_sec h4{
+      color: white;
+      
+  }
+  .menu_sec h5{
+      color:white;
+      font-size: 16px !important;
+  }
+  .menu_sec h5>span{
+      color:#C39B63;
+  }
+  .menu_sec p{
+      color: #727172;
+  }
+  /****************************************Blog page******************************/
+  .page-link{
+      background-color: transparent !important;
+      color: #C39B63;
+      border: 1px solid #C39B63 !important;
+  }
+  .blog_page{
+    background: url('../img/bg_4.jpg') !important;
+    background-size: cover !important;
+  }
+  .pagination>.active{
+      background-color: #C39B63 !important;
+  }
+  .pagination li a:hover{
+      color: white;
+  }
+  /****************************************Shop page******************************/
+
+.shop_page{
+  background: url('../img/bg_4.jpg') !important;
+  background-size: cover !important;
+
+}
+  /****************************************Single_product page******************************/
+
+  .single_product{
+    background: url('../img/bg_4.jpg') !important;
+    background-size: cover !important;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .single_product h2{
+      color: white;
+      letter-spacing: 2px;
+  }
+  .single_product span{
+      color: yellow;
+      font-size: 20px;
+  }
+  .single_product p{
+      color: #727172;
+      font-size: 18px;
+  }
+  .sin_pro_form select{
+    padding: 12px 15px;
+    background-color: transparent !important;
+    color: #C39B63;
+    border-radius:5px;
+    border: 1.5px solid white;
+  }
+   /****************************************Cart page******************************/
+   .image-prod img{
+       height: 100px;
+       width: 100px;
+   }
+   .thead_table{
+       background-color: #C39B63 !important;
+       border: none !important;
+   }
+   .thead_table tr th{
+       color: white !important;
+   }
+   .table-cart{
+    background: url('../img/bg_4.jpg') !important;
+    background-size: cover !important;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+   }
+
+   .product-name h5 ,p{
+       color: white;
+   }
+   .product-remove span{
+       font-size: 30px;
+       color: white;
+    
+   }
+   .product-remove{
+    padding-top: 35px !important;
+   }
+   .price, .total{
+       color: white;
+       padding-top: 50px !important;
+   }
+   .cart-input input{
+       background-color: transparent !important;
+       border: 1px solid white;
+   }
+   .cart-input{
+       padding-top: 30px;
+   }
+ 
+  /**************************************contact page****************************/
+  .contact_form{
+    background: url('../img/bg_4.jpg');
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+   .contact_form input, textarea{
+
+       width: 100% !important;
+       background-color: transparent !important;
+       border: none;
+       outline: none !important;
+       color: white !important;
+      
+   }
+   .contact_form h3{
+       color: white;
+   }
+   .contact_form p > span{
+    color: #C39B63;
+   }
+   .contact_form p{
+    color: white;
+}
+
+/******************************************Checkout************************************/
+.checkout{
+    background: url('../img/bg_4.jpg');
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.checkout input{
+    border: 1px solid grey !important;
+}
+.checkout-form{
+    background-color: black;
+}
+#select{
+    background-color: black !important;
+}
+.checkout_total{
+    background-color: black !important;
+    border: 1 px solid black;
+    height: 350px;
+    
+}
+.checkout_btn{
+    width: 100%;
+}
+.checkout_img{
+    height: 100px;
+    width: 100px;
+}
+.blogcheck_btn{
+    border:1px solid black !important;
+    background-color:  transparent !important;
+    border-radius: 5px;
+    margin: 3px;
+    color: #727172;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.blogcheck_btn:hover{
+    border: 1px solid yellow !important;
+
+}
+input.checkoutsearch{
+    border: none !important;
+    background-color: transparent !important;
+    color: white !important;
+
+   
+}
+/******************************************Blog Details************************************/
+
+.blogdetails{
+    background: url('../img/bg_4.jpg');
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.blogdetailsText{
+    color: #727272;
+}
+.media img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.mediaText{
+    color: #727172;
+}
+.meta{
+    color: #C39B63;
+}
+.blogdetailform input{
+    background-color:  transparent !important;
+    color: white !important;
+    border: none !important;
+}
+.blogdetailform label{
+    color:  white !important;
+}
+  /**************************************Responsive****************************/
+  
+  @media only screen and (max-width: 767px){
+    .navbar{
+      background: rgba(0,0,0,0.5);
+
+
+    }
+  }
+     @media only screen and (max-width: 779px){
+    .our_service{
+      height: 1080px;
+    }
+    #parallax {
+      height: 950px;
+    }
+  }
+      @media only screen and (max-width: 779px){
+  .ftco-about .one-half.img {
+  height: 300px;
+  width: 100%;
+}
+.ftco-about .one-half .overlap {
+margin-left: 0px;
+width: 280%;
+  }
+}
